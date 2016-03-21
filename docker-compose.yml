@@ -1,0 +1,4 @@
+pg_build:
+  build: .
+  volumes:
+    - ../postgresql:/home/pgbuild/postgresql
